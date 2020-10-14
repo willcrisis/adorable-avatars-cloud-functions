@@ -1,6 +1,6 @@
 # Adorable Avatars on Cloud Functions
 
-After `https://api.adorable.io` has been taken down on Oct 14th, 2020, I decided to find a way of being able to continue using Adorable Avatars on a free-hosted server. 
+After `https://api.adorable.io` has been taken down on Oct 14th, 2020, I decided to find a way of being able to continue using [Adorable Avatars](https://github.com/adorableio/avatars-api-middleware) on a free-hosted server. 
 
 Firebase Functions have the ability to run an Express server, and since this would not have heavy usages which could lead me to undesired costs, I decided to deploy on it.
 
@@ -20,4 +20,7 @@ In order to be able to deploy your own Adorable Avatars API, you will need the f
 * To test locally, run `npm run serve` or `yarn serve`
 * To deploy the function, run `firebase deploy`
 
-After deploying, the API will be available at `https://<firebase-functions-generated-url>/avatars/:size/:id`
+After deploying, the API will be available at `https://<firebase-functions-generated-url>/avatars/`.
+
+All [endpoints](https://github.com/adorableio/avatars-api-middleware#endpoints) from `avatars-api-middleware`  will be available.
+
