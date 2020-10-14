@@ -14,6 +14,7 @@ In order to be able to deploy your own Adorable Avatars API, you will need the f
 ## How to use
 
 * Create a new Firebase project in [Firebase Console](https://console.firebase.google.com/)
+* Upgrade the project to Blaze plan (it's billed according to use, but it has pretty decent quotas, and can be used for free while quotas are not exceeded. Functions are only available on Blaze plan projects now)
 * Clone this repo
 * Change the project key in `.firebaserc` to match your newly created project's one
 * Inside `functions` folder, run `npm install` or `yarn`
