@@ -1,6 +1,6 @@
 # Adorable Avatars on Cloud Functions
 
-After `https://api.adorable.io` been taken down on Oct 14th, 2020, I decided to find a way of being able to continue using Adorable Avatars on a free-hosted server. 
+After `https://api.adorable.io` has been taken down on Oct 14th, 2020, I decided to find a way of being able to continue using Adorable Avatars on a free-hosted server. 
 
 Firebase Functions have the ability to run an Express server, and since this would not have heavy usages which could lead me to undesired costs, I decided to deploy on it.
 
